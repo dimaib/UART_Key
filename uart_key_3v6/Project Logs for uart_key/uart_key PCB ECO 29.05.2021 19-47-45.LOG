@@ -1,0 +1,64 @@
+Added Component: Designator=C?(TANT_3.2X1.6_A)
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product0/9000502415"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Capacitor_elec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Конденсатор электр."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10В"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CC0603_0.8mm)
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product0/9000143994"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Конденсатор керам."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.01uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=L?(SDR0604)
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product/sdr0604-100ml"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "SDR0604"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Индуктивность"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uH"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product0/9000079736"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "R0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product0/9000079736"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "R0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SOT-23-6)
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product/lm2734ymk-nopb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "LM2734YMK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DCDC"; VariantName = "[No Variations]"
+Added Component: Designator=VD?(DO-214AC (SMA))
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product/ss16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "SS16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Диод Шоттки"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=+12V Pin=U?-4
+Added Pin To Net: NetName=+12V Pin=U?-5
+Added Pin To Net: NetName=GND Pin=VD?-2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=U?-1
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=L?-2
+Added Pin To Net: NetName=NetC?_2 Pin=L?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Pin To Net: NetName=NetR?_1 Pin=U?-3
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=uart_key Member=Component C? 22uF 10В
+Added Member To Class: ClassName=uart_key Member=Component C? 0.01uF 50V
+Added Member To Class: ClassName=uart_key Member=Component L? SDR0604 10uH
+Added Member To Class: ClassName=uart_key Member=Component R? 10k ±1%
+Added Member To Class: ClassName=uart_key Member=Component R? 10k ±1%
+Added Member To Class: ClassName=uart_key Member=Component U? LM2734YMK
+Added Member To Class: ClassName=uart_key Member=Component VD? SS16

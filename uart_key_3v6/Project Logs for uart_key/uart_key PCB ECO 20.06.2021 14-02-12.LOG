@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=C15 Old Footprint=TANT_3.2X1.6_A New Footprint=TANT_3.5X2.8_B
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Added Component: Designator=VD5(SOD-123)
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product/1n4148w-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "1N4148W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Диод"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC14_1 Pin=VD5-1
+Added Pin To Net: NetName=NetC15_2 Pin=VD5-2
+Added Member To Class: ClassName=uart_key Member=Component VD5 1N4148W
+Added Member To Class: ClassName=uart_key Member=Component XP2 Зарядное устройство

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=NetC15_2 Pin=XP7-1
+Removed Pin From Net: NetName=GND Pin=XP7-2
+Removed Member From Class: ClassName=uart_key Member=XP7
+Added Component: Designator=XP?(B2B-XH-A)
+Add component (AddParameter): Name = "+5V"; Value = "+5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Circuit_2"; Value = "Gnd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link1"; Value = "https://www.chipdip.ru/product0/8384581689"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link2"; Value = "*https://www.chipdip.ru/product/xhp-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Link3"; Value = "*https://www.chipdip.ru/product/sxh-001t-0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "B2B-XH-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Разъём"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC15_2 Pin=XP?-1
+Added Pin To Net: NetName=GND Pin=XP?-2
+Added Member To Class: ClassName=uart_key Member=Component XP? Зарядное устройство на руле
