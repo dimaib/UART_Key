@@ -1,10 +1,13 @@
-# Tremor diagnostic bracelet (_The device is in the early stages of development_)
+# Smart lock for city scooters
 ## Description
-The bracelet transmits data to the mobile application.  Possibility to connect with mobile application via Bluetooth and upload data for the last 5 days.  Availability of internal memory of the device 2GB
->PCB and circuit diagram created by Altium Designer
->Firmware created in Keil uVision for ARM in C languages
+- This device allows you to block the scooter when charging, preventing premature removal from the rack
+- The device also determines whether the scooter is rented or not, thereby blocking or giving it away
+- Allows you to determine the speed of the scooter and dynamically change the color of the LED strip depending on the speed.
+	>All data is intercepted from UART data line of the scooter.
+## Tools and languages
+- PCB and circuit diagram created by Altium Designer
+- Firmware created in Keil uVision for ARM in C languages
 
 ## Main view PCB
-![PCB top](https://github.com/dimaib/Accel_bracelet/blob/main/braslet_pcb_1.0/pcb_top_1.png?raw=true)
-![PCB top opacity LCD](https://github.com/dimaib/Accel_bracelet/blob/main/braslet_pcb_1.0/pcb_top_2.png?raw=true)
-![PCB bottom](https://github.com/dimaib/Accel_bracelet/blob/main/braslet_pcb_1.0/pcb_bottom.png?raw=true)
+![PCB top](https://github.com/dimaib/UART_Key/blob/main/uart_key_3v6/pcb_top.png?raw=true)
+![PCB bottom](https://github.com/dimaib/UART_Key/blob/main/uart_key_3v6/pcb_bottom.png?raw=true)
